@@ -1,0 +1,39 @@
+/* src/components/KanbanBoard.css */
+.kanban-board {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 16px;
+    font-weight: bold
+  }
+  
+  .card-priority,
+  .card-status,
+  .card-user,
+  .card-id,
+  .card-description,
+  .card-created-at {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
